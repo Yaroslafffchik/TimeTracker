@@ -12,7 +12,7 @@ void TimerLabel::setTime(const QTime &time){
 }
 
 void TimerLabel::start(){
-    timer->start(10);
+    timer->start(1000);
 }
 
 bool TimerLabel::isRunning(){

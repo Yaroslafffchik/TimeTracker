@@ -60,10 +60,8 @@ private slots:
     void handleTimeout();
     //Слот для отправки уведомлений по истечению таймера:
     void sendNotification();
-
-public slots:
     //Слот для загрузки задач из базы данных:
-    void loadTasksFromDatabase();
+    void loadTasksFromDatabase();  
 };
 
 #endif // MAINWINDOW_H

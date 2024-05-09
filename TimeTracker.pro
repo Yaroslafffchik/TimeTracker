@@ -22,7 +22,7 @@ HEADERS += \
     taskdialog.h \
     timerlabel.h
 
-FORMS +=
+win32:RC_FILE = icon.txt
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

@@ -64,8 +64,8 @@ QString mainWindowStyle = "QMainWindow {"
                           "}";
 
 MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) {
-    setMinimumSize(1100,800);
-    setMaximumSize(1100,800);
+    setMinimumSize(1100,700);
+    setMaximumSize(1100,700);
     setStyleSheet(mainWindowStyle);
     QPixmap pixLeft(":/resources/img/backL.png");
     QLabel* backgroundLeft = new QLabel(this);
